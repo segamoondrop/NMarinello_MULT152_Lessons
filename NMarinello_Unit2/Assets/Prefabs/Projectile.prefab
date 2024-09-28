@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 4759824598431388408}
   - component: {fileID: 4781890816298536250}
   - component: {fileID: 3889400179379109763}
+  - component: {fileID: -7426681115691373389}
+  - component: {fileID: 7633449689891059555}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -110,3 +112,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6ea1cba3ad37042a263affcadc2551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &-7426681115691373389
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4780712879556977692}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &7633449689891059555
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4780712879556977692}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.50622404, y: 0.47573793, z: 0.4844519}
+  m_Center: {x: 0, y: 0.009565257, z: 0.021385126}
